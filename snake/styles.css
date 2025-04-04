@@ -61,6 +61,25 @@ button {
     border-radius: 4px;
 }
 
-    button:hover {
-        background: #555;
+button:hover {
+    background: #555;
+}
+
+.speed-control {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .speed-control input {
+        padding: 5px;
+        width: 80px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
     }
+
+.direction-controls {
+    display: flex;
+    gap: 10px;
+}

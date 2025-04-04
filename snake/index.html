@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <title>Snake Game</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <!--<script src="script.js"></script>-->
 </head>
 <body>
     <div id="game-container">
         <div id="score">Score: 1</div>
         <div id="game-board"></div>
         <div class="controls">
-            <button id="btn-up">↑</button>
-            <button id="btn-down">↓</button>
-            <button id="btn-left">←</button>
-            <button id="btn-right">→</button>
-            <button id="btn-reset">Reset</button>
+            <p>Miroshnik Mariya 6201-020302D</p>
+            <div class="speed-control">
+                <label for="speed-input">Скорость змейки (мс):</label>
+                <input type="number" id="speed-input" min="2000" max="100" step="100" value="800">
+            </div>
+            <div class="direction-controls">
+                <button id="btn-up">↑</button>
+                <button id="btn-down">↓</button>
+                <button id="btn-left">←</button>
+                <button id="btn-right">→</button>
+                <button id="btn-reset">Reset</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
